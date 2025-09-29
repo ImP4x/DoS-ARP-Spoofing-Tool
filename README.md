@@ -57,8 +57,11 @@ sudo python impxo.py
 - **STOP ATTACK**: Immediately restore normal connections
 
 # Screenshots
-
+### Main
 ![Interfaz Principal](screenshot.png)
+
+### Example
+![Resultado](screenshot1.png)
 
 ### Common Issues
 
