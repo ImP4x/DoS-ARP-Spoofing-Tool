@@ -30,16 +30,16 @@ sudo apt install dsniff arping samba-common-bin snmp-tools
 # Start
 git clone https://github.com/ImP4x/DoS-ARP-Spoofing-Tool.git
 cd DoS-ARP-Spoofing-Tool
-cd Linux
 sudo python impxo.py
 ```
 ## Windows (10/11)
 ### Requirements
 1. Install [Nmap](https://nmap.org/download.html#windows)
 URL Direct: [nmap-7.98-setup.exe](https://nmap.org/dist/nmap-7.98-setup.exe)
-### Running the tool
-The executable will be located at `Windows/impxo.exe` and will prompt for administrator privileges automatically.
 
+### Executable Version for Windows
+This release contains the `impxo.exe` executable file ready for use on Windows 10/11, with all internal dependencies installed.
+Download the file
 ## 📖 Usage Guide
 
 1. **Launch Application**
