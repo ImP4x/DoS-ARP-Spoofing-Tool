@@ -13,33 +13,41 @@ IMPXO is a comprehensive network analysis and ARP spoofing tool with a user-frie
 
 ## 🛠️ Technical Stack
 
-| Component | Technology |
-|-----------|------------|
-| **Language** | Python 3.9+ |
-| **GUI Framework** | Tkinter |
-| **Network Tools** | arpspoof, arping, ping, arp |
+| Component           | Technology                   |
+|---------------------|-----------------------------|
+| **Language**        | Python 3.9+                 |
+| **GUI Framework**   | Tkinter                     |
+| **Network Tools**   | arpspoof, arping, ping, arp (Linux) / Scapy, Nmap, Npcap (Windows) |
 
 # Installation
 
-## Dependencies Installation
+## Linux (Kali, Debian based)
 
 ```bash
+# Dependencies Installation
 sudo apt update
 sudo apt install dsniff arping samba-common-bin snmp-tools
-```
-
-## Linux
-
-```bash
+# Start
 git clone https://github.com/ImP4x/DoS-ARP-Spoofing-Tool.git
 cd DoS-ARP-Spoofing-Tool
+cd Linux
 sudo python impxo.py
 ```
+## Windows (10/11)
+### Requirements
+1. Install [Nmap](https://nmap.org/download.html#windows)
+URL Direct: [nmap-7.98-setup.exe](https://nmap.org/dist/nmap-7.98-setup.exe)
+### Running the tool
+The executable will be located at `Windows/impxo.exe` and will prompt for administrator privileges automatically.
+
 ## 📖 Usage Guide
 
 1. **Launch Application**
 ```bash
+# Linux
 sudo python impxo.py
+#Windows
+Run `impxo.exe` as administrator
 ```
 
 2. **Network Discovery**
